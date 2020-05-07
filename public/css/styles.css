@@ -1,0 +1,59 @@
+body {
+  color: #333;
+  font-family: sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.main {
+  height: 90vh;
+}
+.foot {
+  height: 10vh;
+}
+
+footer {
+  color: #888;
+  border-top: solid 1px #eee;
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888;
+  margin-right: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.face {
+  width: 200px;
+}
+
+form input {
+  border: none;
+  border-bottom: solid 1px rgb(133, 97, 97);
+  padding: 8px;
+  margin: 10px 0;
+}
+
+form button {
+  cursor: pointer;
+  padding: 8px;
+  margin: 10px;
+  background-color: rgb(133, 91, 91);
+  border: none;
+  color: #fff;
+}
