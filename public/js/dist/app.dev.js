@@ -7,7 +7,7 @@ var successMsg2 = document.querySelector('#msg2');
 weatherForm.addEventListener('submit', function (e) {
   successMsg.textContent = 'Loading...';
   successMsg2.textContent = '';
-  fetch('http://127.0.0.1:3000/weather?address=' + search.value).then(function (response) {
+  fetch('/weather?address=' + search.value).then(function (response) {
     response.json().then(function (dataObj) {
       if (dataObj.error) {
         successMsg.textContent = dataObj.error;

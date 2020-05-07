@@ -9,6 +9,7 @@ var forecast = require('./utils/forecast');
 var express = require('express');
 
 var app = express();
+var port = process.env.PORT || 3000;
 var publicDirPath = path.join(__dirname, '../public');
 var viewsPath = path.join(__dirname, '../templates/views');
 var partialsPath = path.join(__dirname, '../templates/partials');
@@ -94,6 +95,6 @@ app.get('*', function (req, res) {
     title: 'Page Not Found'
   });
 });
-app.listen(3000, function () {
-  console.log('Server is up on port 3000.');
+app.listen(port, function () {
+  console.log('Server is up on port ' + port);
 });
