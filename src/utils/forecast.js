@@ -1,7 +1,7 @@
 const request = require('request');
 const forecast = (lat, long, cb) => {
   const url =
-    'http://api.weatherapi.com/v1/forecast.json?key=apikey&q=' +
+    'http://api.weatherapi.com/v1/forecast.json?key=9493a20f97a345c7b7670650200305&q=' +
     lat +
     ',' +
     long;
