@@ -24,14 +24,14 @@ app.get('', (req, res) => {
 
 app.get('/help', (req, res) => {
   res.render('help', {
-    title: 'This is a help page',
+    title: 'Help',
     name: 'Milan Panchal',
   });
 });
 
 app.get('/about', (req, res) => {
   res.render('about', {
-    title: 'About page for this site',
+    title: 'About',
   });
 });
 
