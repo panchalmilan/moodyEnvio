@@ -57,3 +57,14 @@ form button {
   border: none;
   color: #fff;
 }
+
+a, .blueTag{
+  color: blue;
+  text-decoration: none;
+}
+
+#enteredLoc {
+  text-transform: uppercase;
+letter-spacing: 1px;
+
+}
